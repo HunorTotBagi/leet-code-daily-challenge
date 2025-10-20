@@ -9,7 +9,7 @@ public class FinalValueAfterOperationsTests
     [InlineData(new[] { "--X", "X++", "X++" }, 1)]
     [InlineData(new[] { "++X", "++X", "X++" }, 3)]
     [InlineData(new[] { "X++", "++X", "--X", "X--" }, 0)]
-    public void FinalValue_Works_For_Cases(string[] operations, int expected)
+    public void FinalValueAfterOperations(string[] operations, int expected)
     {
         // Act
         var result = FinalValueAfterOperationsSolution.FinalValueAfterOperations(operations);

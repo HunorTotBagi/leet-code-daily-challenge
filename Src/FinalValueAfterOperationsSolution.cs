@@ -9,13 +9,10 @@ public class FinalValueAfterOperationsSolution
         foreach (var operation in operations)
         {
             if (operation == "++X" || operation == "X++")
-            {
                 x++;
-            }
+
             if (operation == "--X" || operation == "X--")
-            {
                 x--;
-            }
         }
 
         return x;
