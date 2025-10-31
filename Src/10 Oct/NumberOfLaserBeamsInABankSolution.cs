@@ -1,4 +1,4 @@
-﻿namespace Src;
+﻿namespace Src._10_Oct;
 
 public class NumberOfLaserBeamsInABankSolution
 {

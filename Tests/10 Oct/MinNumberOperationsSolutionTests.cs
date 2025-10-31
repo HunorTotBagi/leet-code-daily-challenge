@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
-using Src;
+using Src._10_Oct;
 
-namespace Tests;
+namespace Tests._10_Oct;
 
 public class MinNumberOperationsSolutionTests
 {
